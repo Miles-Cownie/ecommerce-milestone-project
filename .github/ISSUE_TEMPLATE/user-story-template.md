@@ -1,7 +1,7 @@
 ---
-name: 'User Story: <TITLE>'
+name: User Story Template
 about: A template to standardise the project's User Stories.
-title: ''
+title: 'User Story: <TITLE>'
 labels: ''
 assignees: Miles-Cownie
 
