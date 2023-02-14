@@ -4,8 +4,8 @@ html {
 
 body {
     background-size: cover;
-    height: calc(100vh - 164px);
-    background-color: #659dbd;
+    height: calc(100vh - 230px);
+    background: url('/media/background_image.jpg') no-repeat center center fixed;
     color: #bc986a;
     font-family: 'Inter', sans-serif;
 }
@@ -73,6 +73,10 @@ body {
     color: #8d8741;
 }
 
+.nav-link {
+    padding: 0.5rem 0rem;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -93,6 +97,12 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 230px;
+    }
+}
+
+@media (min-width: 1343px) {
+    .header-container {
+        padding-top: 182px;
     }
 }
