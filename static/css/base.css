@@ -26,7 +26,6 @@ body {
 .logo-font {
     text-transform: uppercase;
     color: whitesmoke;
-    text-align: center;
 }
 
 .logo-font hr {
@@ -51,6 +50,11 @@ body {
 
 .text-white {
     color: whitesmoke !important;
+}
+
+.text-olive,
+.text-olive:hover {
+    color:#8d8741 !important;
 }
 
 .border-white {
