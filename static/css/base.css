@@ -23,6 +23,10 @@ body {
     background-color: #8d8741;
 }
 
+.header-container {
+    height: 150px;
+}
+
 .logo-font {
     text-transform: uppercase;
     color: whitesmoke;
@@ -86,7 +90,12 @@ body {
   }
 }
 
-/* fixed top navbar only on medium and up */
+@media (min-width:440px) {
+    .header-container {
+        height: 121px;
+    }
+}
+
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
