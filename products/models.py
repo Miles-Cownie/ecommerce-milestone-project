@@ -3,6 +3,10 @@ from django.db import models
 
 class Category(models.Model):
     # Model for product categories
+
+    class Meta:
+        verbose_name_plural = 'Categories'
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -14,6 +18,10 @@ class Category(models.Model):
 
 
 class Product_size(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Product Sizes'
+
     # Model for storing product sizes
     size = models.CharField(max_length=2)
     size_friendly = models.CharField(max_length=254, null=True, blank=True)
@@ -26,6 +34,7 @@ class Product_size(models.Model):
 
 
 class Product(models.Model):
+
     # Model for storing product details
     categories = models.ManyToManyField('Category', blank=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
