@@ -1,8 +1,17 @@
 from django.contrib import admin
+from django.db import models
+from django.forms.widgets import CheckboxSelectMultiple
 from .models import Category, Product_size, Product
 
 
 class ProductAdmin(admin.ModelAdmin):
+
+    formfield_overrides = {
+        models.ManyToManyField: {
+            'widget': CheckboxSelectMultiple
+        }
+    }
+
     list_display = (
         'sku',
         'name',
