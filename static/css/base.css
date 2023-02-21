@@ -61,6 +61,11 @@ body {
     color:#8d8741 !important;
 }
 
+.text-olive-bold {
+    color: #8d8741 !important;
+    font-weight: 700;
+}
+
 .border-white {
     border: 1px solid whitesmoke !important;
 }
@@ -79,6 +84,19 @@ body {
 
 .nav-link {
     padding: 0.5rem 0rem;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #fbeec1;
+}
+
+.card-bg {
+    background-color: #bc986a;
 }
 
 /* -------------------------------- Media Queries */
