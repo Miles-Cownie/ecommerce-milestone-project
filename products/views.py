@@ -14,10 +14,10 @@ def all_products(request):
     categories = None
 
     if request.GET:
-        if 'categories' in request.GET:
+        if 'category' in request.GET:
             categories = request.GET['category'].split(',')
-            products = products.filter(category__name__in=categories)
-            categories = categories.objects.filter(name__in=categories)
+            products = products.filter(categories__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
 
         if 'q' in request.GET:
             query = request.GET['q']
