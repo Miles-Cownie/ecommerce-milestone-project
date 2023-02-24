@@ -99,18 +99,30 @@ body {
     background-color: #8d8741;
 }
 
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+.card-img-top {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
 }
+
+.card-border {
+    border: solid 1px #bc986a;
+    border-radius: 10px;
+}
+
+.detail-text {
+    font-size: 2em;
+}
+
+/* -------------------------------- Media Queries */
 
 @media (min-width:440px) {
     .header-container {
         height: 121px;
+    }
+
+    .card-img-top {
+        height: 25vw;
     }
 }
 
@@ -132,4 +144,14 @@ body {
     .header-container {
         padding-top: 182px;
     }
+
+    .card-img-top {
+        height: 20vw;
+    }
 }
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
