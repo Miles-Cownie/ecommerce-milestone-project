@@ -36,9 +36,9 @@ class Product_size(models.Model):
 class Product(models.Model):
 
     # Model for storing product details
-    categories = models.ManyToManyField('Category', blank=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
+    categories = models.ManyToManyField('Category', blank=True)
     description = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
     rating = models.DecimalField(
