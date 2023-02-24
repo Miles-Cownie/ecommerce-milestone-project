@@ -70,6 +70,10 @@ body {
     border: 1px solid whitesmoke !important;
 }
 
+.border-olive {
+    border: 1px solid #8d8741 !important;
+}
+
 .dropdown-olive {
     background-color: #8d8741;
 }
@@ -112,6 +116,15 @@ body {
 
 .detail-text {
     font-size: 2em;
+}
+
+.badge {
+    font-size: 100%;
+}
+
+a.category-badge > span.badge:hover {
+    background: #8d8741 !important;
+    color: whitesmoke !important;
 }
 
 /* -------------------------------- Media Queries */
