@@ -191,6 +191,12 @@ a.category-badge > span.badge:hover {
     border-bottom-color: #343a40 !important;
 }
 
+/* Allauth form formatting */
+
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
 /* -------------------------------- Media Queries */
 
 @media (min-width:440px) {
