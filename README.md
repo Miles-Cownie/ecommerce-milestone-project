@@ -92,14 +92,12 @@ The game was deployed via an online terminal known as Heroku, developed to facil
 
 [Back to top](<#contents>)
 
-# Credits
-
 ## Content
 * Product ideas and images come from https://www.reptiles.swelluk.com
 * Main code comes from boutique ado system with Code Institute
 * Colour scheme comes from https://visme.co/blog/website-color-schemes/
 * background image comes from https://www.pexels.com
-* 
+* sitemap made on https://www.xml-sitemaps.com/
 
 [Back to top](<#contents>)
 
