@@ -1,0 +1,1 @@
+web: gunicorn nacho_emporium.wsgi:application
