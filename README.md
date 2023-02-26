@@ -6,7 +6,6 @@ Nacho's Reptile Emporium is a ecommerce site built to facilitate customers to bu
 
 * [**User Experience**](#user-experience)
 * [**Existing Features**](#existing-features)
-  * [E]
 * [**Desired Features**](#desired-features)
 * [**Technologies Used**](#technologies-used)
 * [**Testing and Quality Control**](#testing-and-quality-control)
@@ -69,7 +68,7 @@ It works on my desktop, inspect mode says it works on mobile too.
 
 # Bugs
 
-See commits for bugs as they were fixed.
+See commits for bugs as they were encountered.
 
 [Back to top](<#contents>)
 
